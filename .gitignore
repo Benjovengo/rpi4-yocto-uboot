@@ -1,0 +1,33 @@
+.vscode/
+Work/
+
+# Yocto and BSP
+yocto-bsp/meta-mender/
+yocto-bsp/meta-openembedded/
+yocto-bsp/meta-raspberrypi/
+yocto-bsp/meta-virtualization/
+yocto-bsp/poky/
+yocto-bsp/meta-security
+yocto-bsp/meta-clang
+
+# LaTeX temporary and auxiliary files to ignore everywhere
+*.aux
+*.bbl
+*.blg
+*.bcf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.run.xml
+*.synctex.gz
+*.blg
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+*.synctex

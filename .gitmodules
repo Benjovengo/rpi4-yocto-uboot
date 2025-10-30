@@ -2,19 +2,3 @@
 	path = poky
 	url = git://git.yoctoproject.org/poky.git
 	branch = kirkstone
-[submodule "meta-openembedded"]
-	path = meta-openembedded
-	url = git://git.openembedded.org/meta-openembedded
-	branch = kirkstone
-[submodule "meta-raspberrypi"]
-	path = meta-raspberrypi
-	url = https://github.com/agherzan/meta-raspberrypi.git
-	branch = kirkstone
-[submodule "meta-security"]
-	path = meta-security
-	url = git://git.yoctoproject.org/meta-security
-	branch = kirkstone
-[submodule "meta-virtualization"]
-	path = meta-virtualization
-	url = git://git.yoctoproject.org/meta-virtualization
-	branch = kirkstone

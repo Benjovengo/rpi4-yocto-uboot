@@ -1,0 +1,10 @@
+--- a/src/hello.c
++++ b/src/hello.c
+@@ -1,6 +1,6 @@
+ #include <stdio.h>
+
+ int main(void) {
+-    printf("Hello, world from Yocto via autotools!!\n");
++    printf("Hello, world from Yocto with a patch applied!\n");
+     return 0;
+ }

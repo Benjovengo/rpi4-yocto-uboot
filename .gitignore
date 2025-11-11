@@ -2,6 +2,10 @@
 Work/
 
 # Yocto and BSP
+build/tmp/
+build/downloads/
+build/sstate-cache/
+build/cache/
 
 # LaTeX temporary and auxiliary files to ignore everywhere
 *.aux

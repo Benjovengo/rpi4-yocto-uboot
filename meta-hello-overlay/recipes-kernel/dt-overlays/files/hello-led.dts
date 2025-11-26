@@ -1,0 +1,19 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "brcm,bcm2711";
+
+    /* GPIO pin configuration */
+    fragment@0 {
+        target = <&gpio>;
+        __overlay__ {
+            hello_gpio: hello_gpio {
+                gpio-hog;           /* Declare a GPIO hog */
+                gpios = <17 0>;     /* Pin 17, active-high */
+                output-high;        /* Set as output and drive high */
+                line-name = "hello-led";
+            };
+        };
+    };
+};
